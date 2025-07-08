@@ -12,13 +12,17 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "首页"
+    name = "MAIN"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "文章"
+    name = "POSTS"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+    name = "GAMES"
+    url = "/games/"
+    weight = 3
 
 [caches]
   [caches.images]
