@@ -12,15 +12,15 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "MAIN"
+    name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "POSTS"
+    name = "Posts"
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "GAMES"
+    name = "Games"
     url = "/games/"
     weight = 3
 
