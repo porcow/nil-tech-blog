@@ -35,7 +35,7 @@ jobs:
       DART_SASS_VERSION: 1.89.2
       HUGO_VERSION: 0.147.9
       HUGO_ENVIRONMENT: production
-      TZ: America/Los_Angeles
+      TZ: Asia/Shanghai
     steps:
       - name: Install Hugo CLI
         run: |
