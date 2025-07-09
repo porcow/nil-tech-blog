@@ -12,7 +12,7 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowPageNums = true
-  [[params.homeInfoParams]]
+  [params.homeInfoParams]
     Title = "👨‍💻 Coding | 📗 Reading | 👾 Gaming"
     Content = """
     👋 Hi, Welcome to Nil's Void!
