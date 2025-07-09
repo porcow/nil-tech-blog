@@ -4,11 +4,27 @@ title = "Nil's Void"
 theme = "PaperMod"
 
 [params]
-  author = "Nil"
+  author = "Nil Void"
   ShowReadingTime = true
   ShowToc = true
   defaultTheme = "auto"
   comments = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowPageNums = true
+  [[params.homeInfoParams]]
+    Title = "👨‍💻 Coding | 📗 Reading | 👾 Gaming"
+    Content = """
+    👋 Hi, Welcome to Nil's Void!
+    """
+  [[params.socialIcons]]
+    name = "github"
+    title = "Github"
+    url = "https://github.com/porcow"
+  [[params.socialIcons]]
+    name = "KoFi"
+    title = "Buy me a Ko-Fi :)"
+    url = "https://ko-fi.com/nilsvoid"
 
 [menu]
   [[menu.main]]
@@ -23,6 +39,10 @@ theme = "PaperMod"
     name = "Games"
     url = "/games/"
     weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # necessary for search
+    
 
 [caches]
   [caches.images]
